@@ -38,9 +38,9 @@
   <ul>
     <li>Getting the data</li>
     <li>Data Cleaning and Exploratory analysis</li>
-    <li>Creation and testing of a Machine Learning model.</li>
-    <li>Writing up a Flask app for deployment of web application.</li>
-    <li>Deployment of the app.</li>
+    <li>Creation and testing of a Machine Learning model</li>
+    <li>Writing up a Flask app for deployment of web application</li>
+    <li>Deployment of the app</li>
   </ul>
   Here you'll find detail about what was done in each of the steps.
   </p>
@@ -64,13 +64,13 @@
       <li>Dropped outliers found using Boxplots. With this we help by unskewing the data.</li>
       <li>Used a Label Enconder to make sure we are able to use all features on the model.</li>
       <li>Clustered data using KMeans into three clusters. These three clusters would separate the clients in groups of equal variance. 
-        Each cluster represented low-risk clients, mediums-risk clients and high-risk clients. <strong>This will become our target when creating the model.</strong></li>
+        Each cluster represented low-risk clients, medium-risk clients and high-risk clients. <strong>This will become our target when creating the model.</strong></li>
       <ul>
         <li>The clusters came out as follows:</li>
         <img src="{{url_for('static', filename='clusters.png')}}" alt="clusters">
-        <p class="text-justify">We are assuming that cluster "2" will become irrlevant as there's not enough data points no make correct predictions for that specific cluster.</p>
+        <p class="text-justify">We are assuming that cluster "2" will become irrlevant as there's not enough data points to make correct predictions for that specific cluster.</p>
       </ul>
-      <li>With the clustering over with, we can now split the data into training and testing sets to then scale it and finally train and test the model.</li>
+      <li>With the clustering over with, we can now split the data into training and testing sets to then scale them, and finally train and test the model.</li>
     </ol>
   </p>
   <br>
